@@ -27,8 +27,7 @@ This system:
 
 1. Clone this repository:
 ```bash
-git clone <repository-url>
-cd rag_for_r_docs
+git clone JavOrraca/Vector-DB-and-RAG-Maker
 ```
 
 2. Install the required dependencies:
@@ -48,7 +47,7 @@ export ANTHROPIC_API_KEY=your-api-key
 First, ingest all your R-related files from a single directory:
 
 ```bash
-python src/main.py ingest --content-dir /path/to/r/content --output-dir ./chroma_db
+python src/main.py ingest --content-dir ./data --output-dir ./chroma_db
 ```
 
 This command will:
