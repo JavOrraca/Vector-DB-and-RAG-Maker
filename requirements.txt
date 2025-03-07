@@ -3,6 +3,7 @@ langchain-community
 langchain-anthropic
 langchain-text-splitters
 langchain-huggingface
+langchain-chroma
 chromadb
 sentence-transformers
 argparse

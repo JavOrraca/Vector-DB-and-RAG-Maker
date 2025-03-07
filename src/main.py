@@ -24,11 +24,16 @@ def main():
     if args.command == "ingest":
         # Create output directory if it doesn't exist
         os.makedirs(args.output_dir, exist_ok=True)
+        os.makedirs(os.path.join(args.output_dir, args.collection_name), exist_ok=True)
         
         db_path = os.path.join(args.output_dir, args.collection_name)
         
         print(f"Ingesting all R-related files from {args.content_dir}...")
-        db = ingest_all_r_files(args.content_dir, collection_name=args.collection_name)
+        db = ingest_all_r_files(
+            directory_path=args.content_dir, 
+            collection_name=args.collection_name,
+            output_dir=args.output_dir
+        )
         
         print(f"Ingestion complete. Vector database stored in: {db_path}")
         
