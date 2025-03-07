@@ -2,7 +2,7 @@ import os
 import glob
 from langchain_text_splitters import MarkdownHeaderTextSplitter, RecursiveCharacterTextSplitter
 from langchain_community.vectorstores import Chroma
-from langchain_community.embeddings import HuggingFaceEmbeddings
+from langchain_huggingface import HuggingFaceEmbeddings
 
 def ingest_all_r_files(directory_path, collection_name="r_knowledge_base"):
     """
