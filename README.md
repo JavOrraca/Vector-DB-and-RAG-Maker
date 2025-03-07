@@ -30,6 +30,7 @@ This system:
 1. Clone this repository:
 ```bash
 git clone JavOrraca/Vector-DB-and-RAG-Maker
+cd Vector-DB-and-RAG-Maker
 ```
 
 2. Install the required dependencies:
