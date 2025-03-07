@@ -2,6 +2,8 @@
 
 A vector database and Retrieval-Augmented Generation (RAG) system for coding in R, designed to provide bleeding-edge responses based on your local documentation.
 
+![](retro_cartoon_robot.jpg)
+
 ## Overview
 
 This system:
