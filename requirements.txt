@@ -1,0 +1,9 @@
+langchain
+langchain-community
+langchain-anthropic
+langchain-text-splitters
+chromadb
+sentence-transformers
+argparse
+pydantic
+anthropic
